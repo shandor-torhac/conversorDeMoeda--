@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  outline: none;
+}
+
+body {
+  background-image: url(https://a-static.besthdwallpaper.com/la-casa-de-papel-the-professor-and-others-wallpaper-1600x900-85850_47.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  color: #fff;
+}
+
+.logo-mao-dinheiro {
+  display: block;
+  margin: 20px auto;
+  width: 300px;
+  height: 300px;
+}
+
+main {
+  width: 375px;
+  border-radius: 20px;
+  background-color: rgba(244, 244, 244, 0.5);
+  color: #555;
+  margin: 0 auto 40px;
+  padding: 68px 24px 23px;
+}
+
+label {
+  color: #bbb;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+select,
+input {
+  border-radius: 4px;
+  border: 1px solid #bbb;
+  background: #fff;
+  height: 48px;
+  width: 100%;
+  margin-bottom: 48px;
+  appearance: none;
+  padding-left: 17px;
+  color: #555;
+  font-size: 16px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+button {
+  width: 327px;
+  height: 48px;
+  border-radius: 5px;
+  background-color: #ab2735;
+  color: #fff;
+  margin-bottom: 36px;
+  font-size: 18px;
+  font-weight: 700;
+  border: none;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+button:active {
+  opacity: 0.6;
+}
+
+section {
+  width: 327px;
+  /* height: 276px; */
+  border-radius: 20px;
+  border: 1px solid #ab2735;
+  padding: 12px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.arrow-img {
+  margin: 15px;
+}
+
+.currency-box {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4px;
+}
+
+.currency {
+  color: #777;
+  font-size: 14px;
+}
+
+.currency-value,
+.currency-value-to-convert {
+  color: #555;
+  font-size: 20px;
+  font-weight: 700px;
+}
